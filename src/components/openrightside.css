@@ -1,0 +1,70 @@
+.main{
+background-image: url("https://ghostcode.in/wp-content/uploads/2016/09/super_hero_whatsapp_background_by_x_ama-d8fr7iz.jpg");
+
+}
+.content{
+    height: 100vh;
+}
+.box{
+    position: relative;
+    z-index: 100;
+    margin-bottom: 10px;
+    overflow-y:scroll;
+    max-height: 80vh;
+}
+.open-right{
+ display: flex;
+ gap: 15px;
+ margin-left: 10px;
+}
+.open-left{
+    display: flex;
+    gap: 15px;
+    margin-right: 10px;
+    color: grey;
+}
+.open-right >img{
+   width: 40px;
+   height: 40px;
+   border-radius: 20px;
+}
+.right-header{
+    border-left: 1px solid rgb(206, 205, 205);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    padding: 4.5px;
+    background-color: #eff2f5;
+}
+.open-bottom{
+    display: flex;
+    gap: 10px;
+    position:fixed;
+    bottom: 0;
+    background-color:#eff2f5;
+    width: 100%;
+    padding: 20px;
+    color: grey;
+    align-items: center;
+}
+.open-bottom>input{
+    width: 58%;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.open-bottom :nth-child(1)
+{
+    font-size: 30px;
+}
+.open-bottom :nth-child(2)
+{
+    font-size: 30px;
+}
+.open-bottom :nth-child(4)
+{
+    font-size: 30px;
+}
+

@@ -1,0 +1,53 @@
+.chat-box{
+    width: 430px;
+    height: 100vh;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #eff2f5;
+}
+.head img{
+    width: 40px;
+    border-radius: 20px;
+}
+.head-icons{
+    display: flex;
+    gap: 25px;
+    color: grey;
+}
+.search-bar{
+display: flex;
+padding: 7px;
+}
+.search-bar input{
+    background-color: #eff2f5;
+   width: 100%;
+   position: relative;
+   z-index: 1;
+   padding: 9px 9px 9px 70px;
+   font-size: 15px;
+   border-radius: 10px;
+   border: none;
+}
+.search-bar input:focus
+{
+    outline: none;
+}
+
+.search-icon{
+    position: absolute;
+    z-index: 100;
+    margin-top: 3px;
+    margin-left: 15px;
+    color: grey;
+}
+.mul-chats{
+    overflow-y: scroll;
+    scrollbar-color: whitesmoke;
+    max-height: 85vh;
+    color: inherit;
+    text-decoration: none;
+}
