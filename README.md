@@ -1,3 +1,5 @@
+#If is says dangerous site ahead, just click on "more details" and then click on "visit this unsafe site"
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
